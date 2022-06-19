@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7430AACC285E7FAB0053F204 /* BeerOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430AACB285E7FAB0053F204 /* BeerOrderViewController.swift */; };
+		7430AAD2285E98490053F204 /* RevenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430AAD1285E98490053F204 /* RevenueViewController.swift */; };
+		7430AAE2285F51100053F204 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430AAE1285F51100053F204 /* UIButtonExtension.swift */; };
+		7430AAE4285F72D30053F204 /* BeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7430AAE3285F72D30053F204 /* BeerTableViewCell.swift */; };
 		747A8400285DDEBF007CB369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A83FF285DDEBF007CB369 /* AppDelegate.swift */; };
 		747A8402285DDEBF007CB369 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A8401285DDEBF007CB369 /* SceneDelegate.swift */; };
 		747A8404285DDEBF007CB369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A8403285DDEBF007CB369 /* ViewController.swift */; };
@@ -16,6 +20,7 @@
 		747A8417285DDEC1007CB369 /* lesson_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A8416285DDEC1007CB369 /* lesson_5Tests.swift */; };
 		747A8421285DDEC1007CB369 /* lesson_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A8420285DDEC1007CB369 /* lesson_5UITests.swift */; };
 		747A8423285DDEC1007CB369 /* lesson_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A8422285DDEC1007CB369 /* lesson_5UITestsLaunchTests.swift */; };
+		747A8435285DECA2007CB369 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A8434285DECA2007CB369 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7430AACB285E7FAB0053F204 /* BeerOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerOrderViewController.swift; sourceTree = "<group>"; };
+		7430AAD1285E98490053F204 /* RevenueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueViewController.swift; sourceTree = "<group>"; };
+		7430AAE1285F51100053F204 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		7430AAE3285F72D30053F204 /* BeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTableViewCell.swift; sourceTree = "<group>"; };
 		747A83FC285DDEBF007CB369 /* lesson-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lesson-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747A83FF285DDEBF007CB369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		747A8401285DDEBF007CB369 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		747A841C285DDEC1007CB369 /* lesson-5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lesson-5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747A8420285DDEC1007CB369 /* lesson_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson_5UITests.swift; sourceTree = "<group>"; };
 		747A8422285DDEC1007CB369 /* lesson_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		747A8434285DECA2007CB369 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				747A83FF285DDEBF007CB369 /* AppDelegate.swift */,
 				747A8401285DDEBF007CB369 /* SceneDelegate.swift */,
 				747A8403285DDEBF007CB369 /* ViewController.swift */,
+				7430AACB285E7FAB0053F204 /* BeerOrderViewController.swift */,
+				7430AAD1285E98490053F204 /* RevenueViewController.swift */,
+				747A8431285DEBE2007CB369 /* Singleton */,
 				747A8405285DDEBF007CB369 /* Main.storyboard */,
 				747A8408285DDEC1007CB369 /* Assets.xcassets */,
 				747A840A285DDEC1007CB369 /* LaunchScreen.storyboard */,
 				747A840D285DDEC1007CB369 /* Info.plist */,
+				7430AAE3285F72D30053F204 /* BeerTableViewCell.swift */,
+				7430AAE1285F51100053F204 /* UIButtonExtension.swift */,
 			);
 			path = "lesson-5";
 			sourceTree = "<group>";
@@ -125,6 +140,14 @@
 				747A8422285DDEC1007CB369 /* lesson_5UITestsLaunchTests.swift */,
 			);
 			path = "lesson-5UITests";
+			sourceTree = "<group>";
+		};
+		747A8431285DEBE2007CB369 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				747A8434285DECA2007CB369 /* Manager.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				747A8404285DDEBF007CB369 /* ViewController.swift in Sources */,
+				7430AAE4285F72D30053F204 /* BeerTableViewCell.swift in Sources */,
 				747A8400285DDEBF007CB369 /* AppDelegate.swift in Sources */,
+				7430AACC285E7FAB0053F204 /* BeerOrderViewController.swift in Sources */,
 				747A8402285DDEBF007CB369 /* SceneDelegate.swift in Sources */,
+				7430AAE2285F51100053F204 /* UIButtonExtension.swift in Sources */,
+				747A8435285DECA2007CB369 /* Manager.swift in Sources */,
+				7430AAD2285E98490053F204 /* RevenueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
