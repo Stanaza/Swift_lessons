@@ -104,3 +104,4 @@ func calculateFactorialOfNumber(number: Int = 1) {
     print("факториал числа \(number) равен \(result)")
 }
 calculateFactorialOfNumber(number: 5)
+
