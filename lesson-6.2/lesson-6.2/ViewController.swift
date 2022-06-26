@@ -24,7 +24,6 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(addSquare), for: .touchUpInside)
       
         view.addSubview(button)
-        print("frame width\(Int(view.frame.width).isMultiple(of: 2))")
     }
     
     func calcSquareSize(_ viewWidth: CGFloat) {
